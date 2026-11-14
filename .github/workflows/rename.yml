@@ -14,7 +14,6 @@ jobs:
           git config user.email "iRockaNaNa@users.noreply.github.com"
           git fetch origin iRockaNaNa-patch-1
           git checkout -B iRockaNaNa-patch-1 origin/iRockaNaNa-patch-1
-          git rm -f index.html
           git mv nanatech-creative-studios-website.html index.html
           git rm -f .github/workflows/rename.yml
           git add -A
